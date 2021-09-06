@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simulator Paint</title>
+ 
+    
+</head>
+
+<body>
+   
+<canvas id="canvasGE" width="600" height="600"></canvas>
+
+
+<p><label>Culoare Fundal : <input id="culoareGeFundal" type="color" value="#FFFFFF"></label></p>
+
+<div id="optiuni">
+    <p><label>Umplere desen: <input id="f" type="checkbox" checked="checked"></label></p>
+
+    <input type="color"  id="culoareGE">
+    <input type="range" id="grosimeGE" min="1" max="70" value="1">
+    <label id="pxGrosime">1</label>Px
+
+    
+
+</div>
+<div class="compGe">  
+    <button onclick="initializareComponentePoligon()">Poligon</button>
+
+</div>
+<div id="desCerc"> 
+<button onclick="initializareComponenteCerc()">Cerc</button>
+
+</div>
+
+<div id="desLinie"> 
+    <button onclick="initializareComponenteLinie()">Linie</button>
+    </div>
+    <div id="desPatrat"> 
+    <button onclick="initializareComponentePatrat()">Patrat</button>
+    </div>
+    <div id="desElipsa"> 
+        <button onclick="initializareComponenteElipsa()">Elipsa</button>
+        </div>
+
+    <div id="Descarcare"> 
+        <button onclick="salveaza()">Salveaza imagine</button>
+        
+        </div>
+
+</body>
+<link href="1_1077_BOGHIU_GEORGIANA_DANIELA.css" rel="stylesheet">
+<script src="1_1077_BOGHIU_GEORGIANA_DANIELA.js"></script>
+</html>
